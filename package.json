@@ -1,0 +1,34 @@
+{
+  "name": "backend01",
+  "version": "1.0.0",
+  "description": "First backend with nodejs, express and postgres",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gt2rz/backend-node-express-postgres.git"
+  },
+  "keywords": [
+    "nodejs",
+    "js",
+    "express",
+    "postgres"
+  ],
+  "author": "gt2rz.dev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gt2rz/backend-node-express-postgres/issues"
+  },
+  "homepage": "https://github.com/gt2rz/backend-node-express-postgres#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
